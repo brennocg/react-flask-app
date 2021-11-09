@@ -1,3 +1,3 @@
-import MainScreen from 'app/screens/main/MainScreen'
+import MainScreen from 'MainScreen'
 
 export default MainScreen

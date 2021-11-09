@@ -1,5 +1,5 @@
 import injectSheet, { jss } from 'react-jss'
-import MainScreenRenderer from 'app/screens/main/MainScreenRenderer'
+import MainScreenRenderer from 'MainScreenRenderer'
 
 jss.setup({ insertionPoint: 'posui-css-insertion-point' })
 
