@@ -1,18 +1,17 @@
 import React, { PureComponent } from 'react'
-import 'App.css'
+import Helmet from 'react-helmet'
+import MainScreen from 'app/screens/main'
 
 class App extends PureComponent {
 
   render() {
     return (
-      <div >
-        <header >
-
-          ... no changes in this part ...
-
-          <p>The current time is .</p>
-        </header>
-      </div>
+        <div>
+            <Helmet>
+              <title>Example Base</title>
+            </Helmet>
+            <MainScreen />
+        </div>
     )
   }
 }
