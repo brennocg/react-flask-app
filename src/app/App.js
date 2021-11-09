@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import MainScreen from 'app/screens/main/ConnectedMainScreen'
+import MainScreen from './screens/main'
 
 class App extends PureComponent {
 
