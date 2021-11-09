@@ -1,13 +1,12 @@
 import React, { PureComponent } from 'react'
-import MainScreen from './screens/main/index'
+import MainScreen from 'app/screens/main'
 
 class App extends PureComponent {
-
   render() {
     return (
-        <div>
-            <MainScreen />
-        </div>
+      <div>
+        <MainScreen />
+      </div>
     )
   }
 }

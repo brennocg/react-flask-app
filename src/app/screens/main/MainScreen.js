@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import JssMainRenderer from './JssMainRenderer'
+import JssMainRenderer from 'app/screens/main/JssMainRenderer'
 
 
 export default class MainScreen extends PureComponent {
